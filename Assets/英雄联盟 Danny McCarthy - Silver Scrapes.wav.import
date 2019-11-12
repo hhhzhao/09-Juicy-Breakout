@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/英雄联盟 Danny McCarthy - Silver Scrapes.wav-88d9124a0e09d96bcf35928371785d98.sample"
+
+[deps]
+
+source_file="res://Assets/英雄联盟 Danny McCarthy - Silver Scrapes.wav"
+dest_files=[ "res://.import/英雄联盟 Danny McCarthy - Silver Scrapes.wav-88d9124a0e09d96bcf35928371785d98.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

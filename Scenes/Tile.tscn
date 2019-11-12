@@ -1,25 +1,28 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Scripts/Tile.gd" type="Script" id=1]
+[ext_resource path="res://Assets/BRICK/metalBRICK.png" type="Texture" id=2]
 
-[sub_resource type="RectangleShape2D" id=4]
+[sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 32, 16 )
 
 [node name="Tile" type="StaticBody2D" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 104, 296 )
 script = ExtResource( 1 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="ColorRect" type="ColorRect" parent="."]
-margin_left = -32.0
-margin_top = -16.0
-margin_right = 32.0
-margin_bottom = 16.0
-
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource( 4 )
+shape = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 0.0590192, 0.0567523 )
+scale = Vector2( 0.433435, 0.830294 )
+texture = ExtResource( 2 )
+
+[node name="Tween" type="Tween" parent="."]
+
+[node name="Timer" type="Timer" parent="."]
